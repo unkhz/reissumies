@@ -1,0 +1,21 @@
+{
+  "name": "reissumies",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "create-react-context": "^0.1.6",
+    "invariant": "^2.2.2",
+    "react": "^16.3.0-alpha.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0",
+    "rebass": "^2.0.0-0",
+    "serve": "^6.4.11"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src react-scripts build && serve -s build",
+    "dev": "NODE_PATH=src react-scripts start",
+    "build": "NODE_PATH=src react-scripts build",
+    "test": "NODE_PATH=src react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
